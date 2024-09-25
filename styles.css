@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: cyan;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#output {
+    background-color: grey;
+    padding: 10px;
+    overflow: auto;
+}
+
+#editor-container #code {
+    background-color: cornflowerblue;
+}
